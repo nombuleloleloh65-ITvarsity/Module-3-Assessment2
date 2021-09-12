@@ -1,0 +1,252 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: sans-serif;
+	
+	margin: 0;
+	padding: 0;
+	
+	height: 100px; 
+}
+
+.body-home {
+	background-image: url('images/Africanbackground.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-meals {
+	background-image: url('images/woodb1.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*========== HEADER ==========*/
+
+.header {
+	background-color: mediumseagreen;
+	
+	width: 100%;
+	height: 50px
+	top: 0;
+	
+	
+	overflow: hidden;
+	
+	text-align: center;
+}
+
+.header i{
+	float: left;
+	padding: 17px 0px 0px 17px;
+	color: black;
+}
+
+.header img{
+	width: 500px;
+	height: 150;
+}
+
+/*========== HOME PAGE ==========*/
+
+#home-logo-text {
+	width: 50%;
+	display: block;
+	margin: auto;
+	height: 250px;
+	padding: 25px;
+}
+
+/*===== HOME PAGE MENU =====*/
+
+.home-menu-item {
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	color: green;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	border: 5px solid green;
+	
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	width: 80%;
+}
+
+/*========== MEALS PAGE ==========*/
+
+#meals {
+	padding-top: 50px;
+	
+}
+
+/*===== MEALS PAGE MENU =====*/
+
+.meals-list a {
+	text-decoration: none;
+}
+
+.meals-list-item {
+	border: 5px solid #1a1a1a;
+	margin: 10px;
+}
+
+.meals-list-item h1 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #1a1a1a;
+	padding: 10px;
+}
+
+.meals-list-item i {
+	float: right;
+	color: mediumseagreen;
+	padding-right: 10px;
+}
+
+.meals-list-item p {
+	font-size: 15px;
+	font-style: italic;
+	color: black;
+	margin-top: -7px;
+	padding-left: 10px;
+}
+
+/*========== MENU PAGE ==========*/
+
+#body-menu {
+	padding-top: 50px;
+}
+
+/*===== MENU DETAILS =====*/
+
+.menu-details img {
+	width: 100%;
+}
+
+.menu-details h1 {
+	font-size: 25px;
+	text-align: center;
+	border: 5px solid #1a1a1a;
+	margin: 10px;
+	padding: 5px;
+}
+
+.menu-details h2 {
+	font-size: 20px;
+	text-align: left;
+	margin: 0;
+	margin-left: 10px;
+	padding-top: 50px;
+}
+
+.menu-details{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.menu-details pb {
+	font-size: 13px; 
+}
+
+.menu-detais ol {
+	padding-left: 28px;
+}
+
+/*========== FORMS ==========*/
+
+.forms h {
+	padding-left: 28px;
+	padding-bottom: 28px;
+	padding-right: 100px
+}
+
+#request {
+	width: 20%;
+	padding-bottom:50px; 
+}
+
+.button {
+	border: 5px solid black;
+	text-decoration: none;
+	color: black;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: aquamarine;
+}
+
+#message h3 {
+	padding-left: 28px;
+}
+
+#message img {
+	padding-left: 28px;
+}
+
+#message p {
+	padding-left: 28px;
+}
+
+/*========== RESPONSIVE LAYOUT ==========*/
+
+@media only screen and (min-width: 600px) {
+	#meals {
+		width: 80%;
+		margin: auto;
+	}
+	
+	#menu {
+		width: 80%;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	#meals {
+		width: 60%;
+		margin: auto;
+	}
+	
+	#menu {
+		width: 60%;
+		margin: auto;
+	}
+}
+
+
+@media only screen and (min-width: 1500px) {
+	#meals {
+		width: 40%;
+		margin: auto;
+	}
+	
+	#menu {
+		width: 40%;
+		margin: auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
